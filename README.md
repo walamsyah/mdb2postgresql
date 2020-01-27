@@ -43,7 +43,7 @@ into PostgreSQL.  So, for example:
 
     sh mdb2postgresql.sh AccessIsUgly.mdb pg_is_lovely.sql
     createdb pg_is_lovely
-    psql pg_is_lovely -f pg_is_lovely.sql
+    psql --set ON_ERROR_STOP=on pg_is_lovely < pg_is_lovely.sql
 
 
 The More You Know
