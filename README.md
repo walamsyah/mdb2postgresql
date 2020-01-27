@@ -30,6 +30,9 @@ To build and install the Mac version:
     sh automake.sh
     sudo make install
 
+or you can use Brew
+
+    brew install mdbtools
 
 Using The Script
 ----------------
